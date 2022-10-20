@@ -1,0 +1,30 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "extends": "plugin:react/recommended",
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "indent": "off",
+    "react/no-unescaped-entities": 0,
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "linebreak-style": ["error", "windows"],
+    "quotes": "off",
+    "semi": "off"
+  }
+}
