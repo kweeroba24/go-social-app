@@ -51,7 +51,7 @@ const CardFooter = ({ post }) => {
 
   // Saved
   useEffect(() => {
-    if (auth.user.saved.find((id) => id === post._id)) {
+    if (auth.user.saved?.find((id) => id === post._id)) {
       setSaved(true);
     } else {
       setSaved(false);
